@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(89, 54, 122);
+    margin-top: 50px;
+}
+
+h1 {
+    color:rgb(155, 105, 202);
+}
+
+p {
+    color: rgb(192, 133, 247);
+}
+
+#album {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid rgb(119, 70, 165);
+    margin-top: 15px;
+}
+
+button {
+    background-color: rgb(119, 70, 165);
+    color: rgb(88, 177, 102);
+    border: none;
+    padding: 10px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(132, 101, 160);
+}
+
+#reasontext {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(164, 126, 197);
+    margin-top: 20px;
+}
